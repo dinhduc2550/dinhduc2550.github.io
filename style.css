@@ -452,7 +452,7 @@ p {
   }
 }
 
-@media screen and (min-height: 480px) {
+@media screen and (max-width: 1920px) {
   .profile-card header {
     width: auto;
     height: auto;
@@ -472,6 +472,7 @@ p {
     width: 100%;
     display: block;
     float: none;
+    padding-top: 5%;
   }
   @-webkit-keyframes materia {
     0% {
@@ -481,8 +482,8 @@ p {
       -webkit-border-radius: 4px;
     }
     100% {
-      width: 800px;
-      height: 1000px;
+      width: 700px;
+      height: 800px;
       background: #FFFFFF;
       -webkit-border-radius: 4px;
     }
@@ -493,12 +494,104 @@ p {
     }
     50% {
       border-radius: 4px;
+      
     }
     100% {
-      width: 800px;
-      height: 1000px;
+      width: 700px;
+      height: 800px;
       background: #FFFFFF;
       border-radius: 4px;
     }
+  }
+}
+@media screen and (max-width: 1120px) {
+  .profile-card header {
+    width: auto;
+    height: auto;
+    padding: 30px 20px;
+    display: block;
+    float: none;
+    border-right: none;
+  }
+  .profile-card .profile-bio {
+    width: auto;
+    height: auto;
+    padding: 15px 20px 30px 20px;
+    display: block;
+    float: none;
+  }
+  .profile-social-links {
+    width: 100%;
+    display: block;
+    float: none;
+    padding-top: 5%;
+  }
+  @-webkit-keyframes materia {
+    0% {
+      background: #E0E0E0;
+    }
+    50% {
+      -webkit-border-radius: 4px;
+    }
+    100% {
+      width: 90%;
+      height: 800px;
+      background: #FFFFFF;
+      -webkit-border-radius: 4px;
+    }
+  }
+  @keyframes materia {
+    0% {
+      background: #E0E0E0;
+    }
+    50% {
+      border-radius: 4px;
+      
+    }
+    100% {
+      width: 90%;
+      height: 800px;
+      background: #FFFFFF;
+      border-radius: 4px;
+    }
+  }
+}
+
+@media screen and (max-width: 412px) {
+  
+  @-webkit-keyframes materia {
+    0% {
+      background: #E0E0E0;
+    }
+    50% {
+      -webkit-border-radius: 4px;
+    }
+    100% {
+      width: 90%;
+      height: 700px;
+      background: #FFFFFF;
+      -webkit-border-radius: 4px;
+    }
+  }
+  @keyframes materia {
+    0% {
+      background: #E0E0E0;
+    }
+    50% {
+      border-radius: 4px;
+      
+    }
+    100% {
+      width: 90%;
+      height: 700px;
+      background: #FFFFFF;
+      border-radius: 4px;
+    }
+  }
+  h1{
+    font-size:3rem;
+  }
+  h2{
+    font-size:20px;
   }
 }
