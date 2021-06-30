@@ -557,7 +557,7 @@ p {
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 420px) {
   
   @-webkit-keyframes materia {
     0% {
@@ -568,7 +568,7 @@ p {
     }
     100% {
       width: 90%;
-      height: 700px;
+      height: 550px;
       background: #FFFFFF;
       -webkit-border-radius: 4px;
     }
@@ -583,13 +583,13 @@ p {
     }
     100% {
       width: 90%;
-      height: 700px;
+      height: 550px;
       background: #FFFFFF;
       border-radius: 4px;
     }
   }
   h1{
-    font-size:3rem;
+    font-size:2rem;
   }
   h2{
     font-size:20px;
