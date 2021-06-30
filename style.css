@@ -40,9 +40,9 @@ h2 {
 }
 
 h1 {
-  font-size: 5rem;
-    margin-bottom: 5%;
-    margin-top: 3%;
+  font-size: 4rem;
+  margin-bottom: 5%;
+  margin-top: 3%;
 }
 
 h2 {
@@ -123,7 +123,7 @@ p {
   animation: scaleIn 0.3s 3.5s ease forwards;
 }
 
-.profile-card header a > img {
+.profile-card header a>img {
   width: 370px;
   max-width: 100%;
   -webkit-border-radius: 50%;
@@ -134,7 +134,7 @@ p {
   box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
 }
 
-.profile-card header a:hover > img {
+.profile-card header a:hover>img {
   -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
 }
@@ -186,7 +186,7 @@ p {
   height: 100%;
   padding: 6px;
   position: relative;
-  overflow: hidden!important;
+  overflow: hidden !important;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
@@ -206,6 +206,7 @@ p {
     width: 0px;
     height: 0px;
   }
+
   100% {
     width: 56px;
     height: 56px;
@@ -219,6 +220,7 @@ p {
     width: 0px;
     height: 0px;
   }
+
   100% {
     width: 56px;
     height: 56px;
@@ -233,6 +235,7 @@ p {
     height: 0px;
     padding: 0px;
   }
+
   100% {
     top: 50%;
     height: 100%;
@@ -246,6 +249,7 @@ p {
     height: 0px;
     padding: 0px;
   }
+
   100% {
     top: 50%;
     height: 100%;
@@ -257,6 +261,7 @@ p {
   0% {
     -webkit-border-radius: 50%;
   }
+
   100% {
     -webkit-border-radius: 0px;
   }
@@ -266,6 +271,7 @@ p {
   0% {
     -webkit-border-radius: 50%;
   }
+
   100% {
     border-radius: 0px;
   }
@@ -275,9 +281,11 @@ p {
   0% {
     top: 50%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 100%;
   }
@@ -287,9 +295,11 @@ p {
   0% {
     top: 50%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 100%;
   }
@@ -300,9 +310,11 @@ p {
     background: #FFB300;
     top: 100%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 50%;
     background: #E0E0E0;
@@ -314,9 +326,11 @@ p {
     background: #FFB300;
     top: 100%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 50%;
     background: #E0E0E0;
@@ -327,9 +341,11 @@ p {
   0% {
     background: #E0E0E0;
   }
+
   50% {
     -webkit-border-radius: 4px;
   }
+
   100% {
     width: 440px;
     height: 280px;
@@ -342,9 +358,11 @@ p {
   0% {
     background: #E0E0E0;
   }
+
   50% {
     border-radius: 4px;
   }
+
   100% {
     width: 440px;
     height: 280px;
@@ -358,6 +376,7 @@ p {
     margin-top: 50px;
     opacity: 0;
   }
+
   100% {
     opacity: 1;
     margin-top: -20px;
@@ -369,6 +388,7 @@ p {
     margin-top: 50px;
     opacity: 0;
   }
+
   100% {
     opacity: 1;
     margin-top: -20px;
@@ -379,6 +399,7 @@ p {
   0% {
     -webkit-transform: scale(0);
   }
+
   100% {
     -webkit-transform: scale(1);
   }
@@ -388,6 +409,7 @@ p {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(1);
   }
@@ -397,10 +419,12 @@ p {
   0% {
     transform: scale3d(0, 0, 0);
   }
+
   50%,
   100% {
     -webkit-transform: scale3d(1, 1, 1);
   }
+
   100% {
     opacity: 0;
   }
@@ -410,10 +434,12 @@ p {
   0% {
     transform: scale3d(0, 0, 0);
   }
+
   50%,
   100% {
     transform: scale3d(1, 1, 1);
   }
+
   100% {
     opacity: 0;
   }
@@ -423,27 +449,32 @@ p {
   body {
     background-size: cover;
   }
+
   body:before {
     width: 0px;
   }
+
   @-webkit-keyframes puff {
     0% {
       top: 100%;
       width: 0px;
       padding-bottom: 0px;
     }
+
     100% {
       top: 50%;
       width: 100%;
       padding-bottom: 100%;
     }
   }
+
   @keyframes puff {
     0% {
       top: 100%;
       width: 0px;
       padding-bottom: 0px;
     }
+
     100% {
       top: 50%;
       width: 100%;
@@ -461,6 +492,7 @@ p {
     float: none;
     border-right: none;
   }
+
   .profile-card .profile-bio {
     width: auto;
     height: auto;
@@ -468,19 +500,23 @@ p {
     display: block;
     float: none;
   }
+
   .profile-social-links {
     width: 100%;
     display: block;
     float: none;
     padding-top: 5%;
   }
+
   @-webkit-keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       -webkit-border-radius: 4px;
     }
+
     100% {
       width: 700px;
       height: 800px;
@@ -488,14 +524,17 @@ p {
       -webkit-border-radius: 4px;
     }
   }
+
   @keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       border-radius: 4px;
-      
+
     }
+
     100% {
       width: 700px;
       height: 800px;
@@ -504,6 +543,7 @@ p {
     }
   }
 }
+
 @media screen and (max-width: 1120px) {
   .profile-card header {
     width: auto;
@@ -513,6 +553,7 @@ p {
     float: none;
     border-right: none;
   }
+
   .profile-card .profile-bio {
     width: auto;
     height: auto;
@@ -520,19 +561,23 @@ p {
     display: block;
     float: none;
   }
+
   .profile-social-links {
     width: 100%;
     display: block;
     float: none;
     padding-top: 5%;
   }
+
   @-webkit-keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       -webkit-border-radius: 4px;
     }
+
     100% {
       width: 90%;
       height: 800px;
@@ -540,14 +585,17 @@ p {
       -webkit-border-radius: 4px;
     }
   }
+
   @keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       border-radius: 4px;
-      
+
     }
+
     100% {
       width: 90%;
       height: 800px;
@@ -557,15 +605,17 @@ p {
   }
 }
 
-@media screen and (max-width: 420px) {
-  
+@media screen and (max-width: 510px) {
+
   @-webkit-keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       -webkit-border-radius: 4px;
     }
+
     100% {
       width: 90%;
       height: 550px;
@@ -573,14 +623,23 @@ p {
       -webkit-border-radius: 4px;
     }
   }
+
+  .profile-card header a>img {
+    width: 60%;
+    max-width: 100%;
+
+  }
+
   @keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       border-radius: 4px;
-      
+
     }
+
     100% {
       width: 90%;
       height: 550px;
@@ -588,10 +647,18 @@ p {
       border-radius: 4px;
     }
   }
-  h1{
-    font-size:2rem;
+
+  h1 {
+    font-size: 2rem;
   }
-  h2{
-    font-size:20px;
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .profile-card .profile-bio {
+
+    padding: 0px 20px 20px 20px;
+
   }
 }
